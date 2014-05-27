@@ -1,0 +1,50 @@
+.welcome
+	%h1{id: 'main_icon'} ☰
+	.icon_group
+		.icons
+			= link_to image_tag('../images/facebook.png'), 'https://www.facebook.com/empowerchris'
+			= link_to image_tag('../images/twitter.png'), 'https://twitter.com/EmpowerChris'
+			= link_to image_tag('../images/linkedin.png'), 'http://www.linkedin.com/in/empowerchris1/'
+			= link_to image_tag('../images/youtube.png'), 'http://www.youtube.com/santasmiraclefund'
+			= link_to image_tag('../images/medium.png'), 'https://medium.com/@EmpowerChris'
+
+.section_one{id: 'page_container'}
+	.page_wrap
+	.about_me_modal
+		%h1{id: 'modal_close'} x
+		= image_tag '../images/Chris.jpg', :id => 'modal_image'
+		%h1{id: 'modal_header'} ABOUT ME
+		%p{id: 'modal_text'} I believe in bravery.  Sure I love making things, but I became a developer because I used to say it was impossible.  I sold myself excuses like, "I'm too right-brained to be an engineer", and "That's just not how my mind works".  I'm no fan of self-imposed limitations, and my work is a reflection of my lifelong quest to build a more empowered world.  As you look through my portfolio, I hope it inspires you to strive for excellence in your own life.  Hopefully you will notice an eye for design as well.
+
+	.about_me
+		%h1{id: 'about_me_icon'} +
+
+	.images
+		.column	
+			= image_tag('../images/hubblefly.png')
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} Create your own independent study courses that match your unique interests.
+		.column
+			= image_tag('../images/mission.png')
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} For every workout, we donate $1 to a charity of your choice.
+		.column
+			= image_tag('../images/goldenharvest.png')
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} Led project management for Golden Harvest Food Bank website.
+		.column
+			= image_tag('../images/pumpkins.png') 
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} The rain in spain stays mainly in the plains.
+		.column
+			= image_tag('../images/UGA.png')
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} Strategic fundraising plan for the UGA Social Entrepreneurship program.
+		.column
+			= image_tag('../images/scholarfly.png')
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} Scholarfly is the easiest way to earn money for college.
+		.column
+			= image_tag('../images/strikingly.png')
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} Designed pitch deck and marketing website for Frankeinstein.
+		.column
+			= image_tag('../images/strikingly.png')
+			%a{id: 'hover_text', href: 'https://github.com/empowerchris'} Designed pitch deck and marketing website for Frankeinstein.
+
+
+
+
