@@ -16,3 +16,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem 'coffee-script', '~> 2.2.0'
 gem 'haml'
+gem 'rack-contrib'
